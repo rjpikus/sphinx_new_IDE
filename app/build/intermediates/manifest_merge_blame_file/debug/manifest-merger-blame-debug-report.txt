@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+4    package="edu.cmu.pocketsphinx.demo"
+5    android:versionCode="1"
+6    android:versionName="1.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="14"
+9-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="33" />
+10-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:7:5-71
+13-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:7:22-68
+14
+15    <permission
+15-->[androidx.core:core:1.10.1] /Users/rj/.gradle/caches/transforms-3/b5eea63eaa07249f98c62596eff6e2f9/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+16        android:name="edu.cmu.pocketsphinx.demo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.10.1] /Users/rj/.gradle/caches/transforms-3/b5eea63eaa07249f98c62596eff6e2f9/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.10.1] /Users/rj/.gradle/caches/transforms-3/b5eea63eaa07249f98c62596eff6e2f9/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="edu.cmu.pocketsphinx.demo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.10.1] /Users/rj/.gradle/caches/transforms-3/b5eea63eaa07249f98c62596eff6e2f9/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.10.1] /Users/rj/.gradle/caches/transforms-3/b5eea63eaa07249f98c62596eff6e2f9/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:9:5-20:19
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.10.1] /Users/rj/.gradle/caches/transforms-3/b5eea63eaa07249f98c62596eff6e2f9/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+23        android:debuggable="true"
+24        android:label="@string/app_name"
+24-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:9:18-50
+25        android:testOnly="true" >
+26        <activity
+26-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:10:9-19:20
+27            android:name="edu.cmu.pocketsphinx.demo.PocketSphinxActivity"
+27-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:11:13-49
+28            android:exported="true"
+28-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:13:13-36
+29            android:label="@string/app_name" >
+29-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:12:13-45
+30            <intent-filter>
+30-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:14:13-18:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:15:17-69
+31-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:15:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:17:17-77
+33-->/Users/rj/c1/pocketsphinx-wake-word-engine copy 12 new IDE 12 copy 2/app/src/main/AndroidManifest.xml:17:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

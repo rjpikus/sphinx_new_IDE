@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "edu.cmu.pocketsphinx.demo.app-merged_res-8:/drawable-ldpi_icon.png.flat",
+        "source": "edu.cmu.pocketsphinx.demo.app-main-10:/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "edu.cmu.pocketsphinx.demo.app-merged_res-8:/drawable-mdpi_icon.png.flat",
+        "source": "edu.cmu.pocketsphinx.demo.app-main-10:/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "edu.cmu.pocketsphinx.demo.app-merged_res-8:/layout_main.xml.flat",
+        "source": "edu.cmu.pocketsphinx.demo.app-main-10:/layout/main.xml"
+    },
+    {
+        "merged": "edu.cmu.pocketsphinx.demo.app-merged_res-8:/drawable-hdpi_icon.png.flat",
+        "source": "edu.cmu.pocketsphinx.demo.app-main-10:/drawable-hdpi/icon.png"
+    }
+]

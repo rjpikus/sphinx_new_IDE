@@ -1,0 +1,19 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace "edu.cmu.pocketsphinx.demo"
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "edu.cmu.pocketsphinx.demo"
+        minSdkVersion 14
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.1"
+    }
+}
+
+dependencies {
+    implementation project(':aars')
+    implementation project(':models')
+    implementation "androidx.core:core-ktx:1.10.1"
+}

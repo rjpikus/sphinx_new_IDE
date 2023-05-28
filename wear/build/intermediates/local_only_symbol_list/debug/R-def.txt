@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+id caption_text
+id result_text
+layout activity_main
+mipmap ic_launcher
+string app_name
+string digits_caption
+string forecast_caption
+string kws_caption
+string menu_caption
+string phone_caption

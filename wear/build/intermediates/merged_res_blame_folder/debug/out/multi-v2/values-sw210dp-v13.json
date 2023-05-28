@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "edu.cmu.pocketsphinx.wear-mergeDebugResources-8:/values-sw210dp-v13/values-sw210dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/rj/.gradle/caches/transforms-3/fe26e865b83b354fbd8293a9ed537278/transformed/wearable-2.1.0/res/values-sw210dp-v13/values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "215,279,339",
+                        "endColumns": "63,59,47",
+                        "endOffsets": "278,338,386"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,123,187",
+                        "endColumns": "67,63,51",
+                        "endOffsets": "118,182,234"
+                    }
+                }
+            ]
+        }
+    ]
+}

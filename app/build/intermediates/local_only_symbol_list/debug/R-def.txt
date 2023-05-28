@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+drawable icon
+id caption_text
+id result_text
+layout main
+string app_name
+string digits_caption
+string forecast_caption
+string kws_caption
+string menu_caption
+string phone_caption
